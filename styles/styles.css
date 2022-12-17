@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif !important;
+    font: 95%;
+}
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.479),
+    rgba(0, 0, 0, 0.521)), url('/images/hero-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 70vh;
+}
+
+.container__relative{
+    position: relative;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.overlay{
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    color: #fff;
+    align-self: center;
+
+}
+.backdrop{
+    filter: brightness(30%);
+}
+
+
+@media only screen and (min-width:
+320px){
+    .text-centered{
+      justify-content: center;
+        text-align: center;
+    }
+    .centered{
+        display: flex;
+        justify-content: center !important;
+    }
+}
+
+@media only screen and (min-width:
+480px){
+    .text-centered{
+      justify-content: center;
+        text-align: center;
+    }
+    .centered{
+        display: flex;
+        justify-content: center !important;
+    }
+}
+
+@media only screen and (min-width:
+600px){
+    .text-centered{
+      justify-content: center;
+        text-align: center;
+    }
+    .centered{
+        display: flex;
+        justify-content: center !important;
+    }
+}
+@media only screen and (min-width:
+1020px){
+    .text-centered{
+      justify-content: flex-start;
+        text-align: start;
+    }
+    .centered{
+        display: flex;
+        justify-content: flex-start !important;
+    }
+}
+
+/* @media only screen and (min-width:
+500px){
+    .text-centered{
+        justify-content: center;
+        text-align: center;
+    }
+    .centered{
+        display: flex;
+        justify-content: center !important;
+    }
+} */
